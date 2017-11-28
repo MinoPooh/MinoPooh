@@ -134,3 +134,4 @@
     </script>
 </body>
 </html>
+<%@ include file="/WEB-INF/include/include-footer.jspf" %>

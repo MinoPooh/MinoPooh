@@ -1,5 +1,4 @@
-<%@ page pageEncoding="utf-8"%>
- 
+<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%> 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <title>first</title>
@@ -13,3 +12,38 @@
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<c:url value='/js/common.js'/>" charset="utf-8"></script>
+
+
+<div id = "Top">
+	<div id = "Container">
+		<div id = "Logo" align="center">
+			<a href = "http://localhost:8181/first/sample/openBoardList.do">
+				<img src="../resources/images/Logo.png"  alt="logo" border="0" align="middle">
+			</a>
+		</div>
+		<ul id ="Login" align="right">
+			<li>
+				<a>로그인</a>
+			</li>
+			
+			<li>
+				<a>회원가입</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<style type="text/css">
+
+#Top{
+	background-color:black;
+	padding:20px;
+
+}
+
+#Login{
+   list-style:none;
+   color:white;
+}
+</style>
+
